@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF6750A4"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="230dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textNoteText"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/textNoteTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Item"
+                android:textSize="30sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:layout_width="45dp"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+
+            <ImageView
+                android:id="@+id/editTeam"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/edit_fill0_wght400_grad0_opsz24__1_" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <ImageView
+                android:id="@+id/deleteTeam"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                app:srcCompat="@drawable/delete_fill0_wght400_grad0_opsz24__1_" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

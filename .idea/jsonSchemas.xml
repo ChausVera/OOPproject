@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="http://maven.apache.org/POM/4.0.0">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="http://maven.apache.org/POM/4.0.0" />
+              <option name="relativePathToSchema" value="https://maven.apache.org/xsd/maven-4.0.0.xsd" />
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>
